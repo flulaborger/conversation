@@ -1,0 +1,39 @@
+{
+  "New Build Configuration": {
+    "build": [
+      {
+        "args": "",
+        "command": "",
+        "working_dir": ""
+      }
+    ],
+    "build_types": [],
+    "clean": [
+      {
+        "args": "",
+        "command": "",
+        "working_dir": ""
+      }
+    ],
+    "config": {
+      "clear_sys_env": false,
+      "strip_ansi_codes": false
+    },
+    "os": [],
+    "output_parser": {
+      "config": {
+        "preset": "generic",
+        "relative_file_paths": true
+      }
+    },
+    "run": [
+      {
+        "args": "server.js",
+        "command": "bun",
+        "name": "bun server.js",
+        "run_in_terminal": true,
+        "working_dir": ""
+      }
+    ]
+  }
+}
